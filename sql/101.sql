@@ -1,3 +1,5 @@
+CREATE DATABASE `blog`; /*!40100 DEFAULT CHARACTER SET utf8mb4 */
+
 CREATE TABLE `posts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(100) NOT NULL,
