@@ -1,8 +1,32 @@
 # 假定有 posts 與 comments 兩張 table。posts 有 title, content 兩個欄位，comments 有 messages 欄位。請以 laravel 設計並實作新增 comment 與 post 的 api ，並將 comments 與 posts 相關聯。缺少的欄位可自行補足，實作能以 github 等方式提供。
 
+## table schema
+
 ```
 
 sql/101.sql 為 table schema
+
+```
+
+## 異動的檔案
+
+```
+
+app/Exceptions/PostAddError.php
+app/Exceptions/PostNotFound.php
+app/Exceptions/Handler.php
+app/Exceptions/CommentAddError.php
+
+app/Http/Controllers/CommentController.php
+app/Http/Controllers/PostController.php
+
+app/Models/Comment.php
+app/Models/Post.php
+
+app/Services/CommentService.php
+app/Services/PostService.php
+
+routes/web.php
 
 ```
 
