@@ -26,7 +26,7 @@ app/Models/Post.php
 app/Services/CommentService.php
 app/Services/PostService.php
 
-routes/web.php
+routes/api.php
 
 ```
 
